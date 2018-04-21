@@ -2,7 +2,7 @@
 In this project we reproduction **Deep Visual-Semantic Embedding Model** in Cifar-100 
 
 ## Dataset for visual model pre-training
-Cifar 100 
+- Cifar 100 
 
 ## NETWORK STRUCTURE
 ### visual_embedding
@@ -39,3 +39,8 @@ Cifar 100
     <td>0.639956</td>
   </tr>
 </table>
+
+## accuracy
+![dim-1000](./imgs/acc_1000.png) </br>
+**dim-1000** </br>
+![dim-300](./imgs/acc_300.png) </br>
