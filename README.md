@@ -29,12 +29,13 @@ Cifar 100
   <tr>
     <td rowspan="2">DeViSE</td>
     <td rowspan="2">resnet</td>
-    <td rowspan="2">GoogleNews-vectors-negative300</td>
+    <td>GoogleNews-vectors-negative300</td>
     <td>300</td>
     <td>0.40357876</td>
   </tr>
   <tr>
+    <td>freebase-vectors-skipgram1000-en.bin</td>
     <td>1000</td>
-    <td>0.63964415</td>
+    <td>0.639956</td>
   </tr>
 </table>
