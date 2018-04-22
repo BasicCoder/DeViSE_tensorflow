@@ -31,16 +31,17 @@ In this project we reproduction **Deep Visual-Semantic Embedding Model** in Cifa
     <td rowspan="2">resnet</td>
     <td>GoogleNews-vectors-negative300</td>
     <td>300</td>
-    <td>0.40357876</td>
+    <td>0.4064261</td>
   </tr>
   <tr>
     <td>freebase-vectors-skipgram1000-en.bin</td>
     <td>1000</td>
-    <td>0.639956</td>
+    <td>0.6406754</td>
   </tr>
 </table>
 
-## accuracy
-![dim-1000](./imgs/acc_1000.png) </br>
-**dim-1000** </br>
-![dim-300](./imgs/acc_300.png) </br>
+## Experiment
+| Type     | dim=300                         | dim=1000                          |
+| -------- | ------------------------------- | --------------------------------- |
+| accuracy | ![dim-300](./imgs/acc_300.png)  | ![dim-1000](./imgs/acc_1000.png)  |
+| loss     | ![dim-300](./imgs/loss_300.png) | ![dim-1000](./imgs/loss_1000.png) |
